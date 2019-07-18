@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*----------HOME PAGE--------*/
+
+.home {
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url(/images/cinema.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100vh;
+  width: auto;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center
+}
+
+.title {
+  color: aliceblue;
+  padding: 50px;
+  font-size: 7vh;
+  text-align: center;
+
+}
+
+.btn {
+  display: flex;
+  height: 7vh;
+  width: 15vw;
+}
+
+.btn a {
+  color: #00B7FF;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+.btn button {
+border-radius: 50px;
+background-color: aliceblue;
+height: 7vh;
+width: 15vw;
+}
+
+/*---------movies----------------*/
+
+.movies {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 100%;
+flex-wrap: wrap;
+margin: 10px;
+}
+
+.each-movie {
+  width: 30%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.each-movie img {
+  width: 15rem;
+  align-self: center;
+}
+
+.each-movie h1, a {
+  align-self: center;
+  font-size: 1.7rem;
+}
+
+/*---------Movie------------*/
+
+.each-movie-single-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.each-movie-single-page img {
+width: 20vw;
+height: auto;
+padding: 15px;
+}
+
+.each-movie-single-page a {
+  align-self: flex-start;
+}
